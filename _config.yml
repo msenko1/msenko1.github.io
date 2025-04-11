@@ -1,3 +1,5 @@
+# No touch
+
 lsi: false
 safe: true
 source: (root)
@@ -8,4 +10,30 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-remote_theme: Hyde
+  
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Michael Senko
+tagline:          'Personal webpage'
+description:      ''
+url:              https://msenko1.github.io
+baseurl:          /
+
+author:
+  name:           'Michael Senko'
+  url:            https://msenko1.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/msenko1/msenko1.github.io
