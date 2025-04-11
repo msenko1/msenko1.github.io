@@ -1,2 +1,2 @@
-# msenko1.github.io
+# Michael Senko's Personal Webpage
 Github page
