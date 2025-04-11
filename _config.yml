@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: msenko1
+source: (root)
 incremental: false
 highlighter: rouge
 gist:
