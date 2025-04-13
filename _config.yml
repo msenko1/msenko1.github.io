@@ -2,7 +2,7 @@
 
 lsi: false
 safe: true
-source: (root)
+source: .
 incremental: false
 highlighter: rouge
 gist:
@@ -12,12 +12,11 @@ kramdown:
   syntax_highlighter: rouge
   
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Michael Senko
