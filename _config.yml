@@ -1,0 +1,42 @@
+# No touch
+
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+#Plugins
+plugins:
+  - jekyll-paginate
+  
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Michael Senko
+tagline:          'Personal webpage'
+description:      ''
+url:              https://msenko1.github.io
+baseurl:          /
+
+author:
+  name:           'Michael Senko'
+  url:            https://msenko1.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/msenko1/msenko1.github.io
