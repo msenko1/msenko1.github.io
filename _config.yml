@@ -10,6 +10,11 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+#Plugins
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
   
 # Dependencies
 markdown:         kramdown
