@@ -1,6 +1,11 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+
+      <!-- Add profile picture below-->
+      <img src="{{ site.basurl }}assets/profile.jpg" alt="Profile picture" class="profile-image">
+
+      
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
@@ -30,6 +35,6 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     </nav>
 
-    <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
