@@ -57,8 +57,18 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #3f2988;
 }
+
+.profile-image {
+    width: 150px;  /* Adjust as needed */
+    height: 150px;  /* Adjust as needed */
+    /* border-radius: 50%;  /* This makes the image circular */
+    margin-bottom: 1rem;
+    /* border: 3px solid #fff;  /* Optional: adds a white border around the image */
+}
+
+/* Sidebar on smaller screens */
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
