@@ -1,2 +1,2 @@
 # Michael Senko's Personal Webpage
-Github page
+GitHub Pages

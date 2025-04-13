@@ -60,6 +60,43 @@ html {
   background-color: #3f2988;
 }
 
+/* Sidebar nav items */
+.sidebar-nav .sidebar-nav-item {
+  color: white !important;
+  text-decoration: none !important;
+  transition: color .5s ease;
+}
+
+.sidebar-nav .sidebar-nav-item:hover {
+  color: #a0a0a0 !important; /* darker gray */
+  text-decoration: none !important;
+}
+
+/* Sidebar title link */
+.sidebar-about h1 a {
+  color: white !important;
+  text-decoration: none !important;
+  transition: color .5s ease;
+}
+
+.sidebar-about h1 a:hover {
+  color: #a0a0a0 !important;
+  text-decoration: none !important;
+}
+
+/* Main content links */
+.content a {
+  color: #0645ad; /* Use normal text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.content a:hover {
+  color: #4f49a2;
+  text-decoration: none;
+}
+
+
 .profile-image {
     width: 250px;  /* Adjust as needed */
     height: 250px;  /* Adjust as needed */
@@ -176,85 +213,61 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+/* Ensure numbering is applied properly */
+.research-list {
+  list-style-type: decimal !important;  /* Ensure numbers appear */
+  padding-left: 2em; /* Slightly increase left padding for better alignment */
+  margin-bottom: 1.5em;
+  color: #333;
 }
 
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
+.research-list li {
+  list-style-type: decimal !important;
+  display: list-item !important;
 }
 
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
+.research-entry {
+  margin-bottom: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
+.research-entry p {
+  margin: 0;
+  flex: 1;
 }
 
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+.entry-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
 }
 
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
+.entry-wrapper p {
+  margin: 0;
+  flex: 1;
 }
 
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
+.pdf-button {
+  white-space: nowrap;
+  background-color: #4f49a2;
+  color: white !important;
+  border: none;
+  padding: 0.35em 0.75em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
 }
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+
+.pdf-button:hover {
+  background-color: #6b65c5;
 }
+
+
+
+
