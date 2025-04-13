@@ -13,7 +13,6 @@ kramdown:
 
 #Plugins
 plugins:
-  - jekyll-gist
   - jekyll-paginate
   
 # Dependencies
