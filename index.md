@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Home
+description: "Personal website of Michael Senko, Linguistics PhD student at Stanford University."
+author: "Michael Senko"
+---
+
 ---
 
 # Hey! 👋

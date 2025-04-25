@@ -54,7 +54,7 @@ html {
  */
 
 .sidebar {
-  text-align: center;
+  text-align: center !important;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #3f2988;
@@ -105,7 +105,7 @@ html {
     /* border: 3px solid #fff;  /* Optional: adds a white border around the image */
 }
 
-/* Sidebar on smaller screens */
+/* Sidebar on larger screens */
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -113,7 +113,10 @@ html {
     left: 0;
     bottom: 0;
     width: 18rem;
-    text-align: left;
+    text-align: center;
+  }
+  .profile-image {
+    display: inline-block;
   }
 }
 
@@ -268,6 +271,53 @@ a.sidebar-nav-item:focus {
   background-color: #6b65c5;
 }
 
+/* Sidebar on smaller screens */
+@media (max-width: 48em) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0.2rem 0;
+    background-color: #4f49a2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-image {
+    width: 80px !important;    /* Shrink the profile picture */
+    height: 80px !important;   /* Keep aspect ratio */
+    max-width: 80px !important;
+    max-height: 80px !important;
+    object-fit: cover !important; /* Ensure it's cropped neatly */
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 50% !important;  /* Circle the profile picture */
+  }
+
+  .sidebar-about h1 {
+    font-size: 1.5rem; /* Smaller name font */
+    margin-bottom: 0.2rem;
+    padding: 0.2rem;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping to next line */
+    margin-top: 0.2rem;
+    padding: 0 1rem;
+  }
+
+  .sidebar-nav-item {
+    width: 30%; /* Up to 3 items per row */
+    text-align: center;
+    margin-bottom: 0.2rem;
+  }
+
+  .sidebar p {
+    margin-top: 0.2rem; /* Reduce space above copyright */
+  }
+}
 
 
 
