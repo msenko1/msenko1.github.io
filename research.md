@@ -8,8 +8,8 @@ title: Research
 <ol class="research-list" reversed>
   <li class="research-entry">
     <div class="entry-wrapper">
-      <p><strong>Senko, M.</strong> & Voigt, R. (To appear). Transgressing the binary: A computational approach to gendered reference. In S. Burnett & F. Vigo (Eds.), <em>Battlefield linguistics: Contemporary contestations of language, gender, and sexuality.</em> DeGruytor Mouton.</p>
-      <a class="pdf-button" href="/assets/publications/senko_voigt_toappear_battlefield.pdf" target="_blank">PDF</a>
+      <p><strong>Senko, M.</strong> & Voigt, R. (To appear). Transgressing the binary: A computational approach to gendered reference. In S. Burnett & F. Vigo (Eds.), <em>Battlefield linguistics.</em> DeGruytor Mouton.</p>
+      <a class="pdf-button" href="/assets/publications/senko_voigt_2025_computational_gender_reference.pdf" target="_blank">PDF</a>
     </div>
   </li>
 
