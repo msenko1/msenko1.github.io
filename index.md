@@ -9,17 +9,14 @@ author: "Michael Senko"
 
 # Hey! 👋
 
-I'm Michael, an incoming Linguistics PhD student at [Stanford](https://linguistics.stanford.edu/ "Stanford Linguistics").
+I'm Michael, a 1st year Linguistics PhD student at [Stanford](https://linguistics.stanford.edu/ "Stanford Linguistics").
 
 I'm interested in:
 
-- ㊓ Sociolinguistics (performance, fieldwork, metalinguistic awareness)
-- 🧠 Cognition (stereotype, bias, exemplar theory)
-- 🎙️ Phonetics (perception, variation, chain shifts)
+- ㊓ Sociolinguistics (performance, variation, metalinguistic awareness)
+- 🧠 Cognition (control, attention, exemplar theory)
+- 🎙️ Phonetics (vowel quality, speech production, chain shifts)
 - 👾 Computational methods (NLP, LLMs, corpus analysis)
-
-Watch this space for updates on my work! 
-
 
 You can contact me at **msenko** at **stanford** dot **edu**.
 
