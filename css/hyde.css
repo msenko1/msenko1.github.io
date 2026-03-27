@@ -229,25 +229,17 @@ a.sidebar-nav-item:focus {
   display: list-item !important;
 }
 
+/* --- Research entries layout (cleaner, CV-style) --- */
+
 .research-entry {
   margin-bottom: 1.5em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-
-.research-entry p {
-  margin: 0;
-  flex: 1;
 }
 
 .entry-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 1em;
+  align-items: flex-start; /* important: align to top */
+  gap: 1.25em;
 }
 
 .entry-wrapper p {
@@ -255,20 +247,47 @@ a.sidebar-nav-item:focus {
   flex: 1;
 }
 
-.pdf-button {
+/* --- Button stack (right side, vertical) --- */
+
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 2px; /* subtle alignment with text */
+}
+
+/* --- Shared button styling --- */
+
+.pdf-button,
+.doi-button {
   white-space: nowrap;
-  background-color: #4f49a2;
   color: white !important;
   border: none;
   padding: 0.35em 0.75em;
   border-radius: 5px;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 0.85em;
   transition: background-color 0.2s ease;
+  display: inline-block;
+}
+
+/* PDF (your original purple) */
+.pdf-button {
+  background-color: #4f49a2;
 }
 
 .pdf-button:hover {
   background-color: #6b65c5;
+}
+
+/* DOI (lighter sky blue) */
+.doi-button {
+  background-color: #7fd3ea; /* softer sky blue */
+}
+
+.doi-button:hover {
+  background-color: #a6e3f5; /* lighter on hover */
 }
 
 /* Sidebar on smaller screens */

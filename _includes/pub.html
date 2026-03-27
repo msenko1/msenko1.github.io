@@ -1,0 +1,13 @@
+<li class="research-entry">
+  <div class="entry-wrapper">
+    <p>{{ include.citation }}</p>
+    <div class="button-stack">
+      {% if include.pdf %}
+        <a class="pdf-button" href="{{ include.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>
+      {% endif %}
+      {% if include.doi %}
+        <a class="doi-button" href="{{ include.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
+      {% endif %}
+    </div>
+  </div>
+</li>

@@ -6,19 +6,13 @@ title: Research
 ## Publications
 
 <ol class="research-list" reversed>
-  <li class="research-entry">
-    <div class="entry-wrapper">
-      <p><strong>Senko, M.</strong> & Voigt, R. (To appear). Transgressing the binary: A computational approach to gendered reference. In S. Burnett & F. Vigo (Eds.), <em>Battlefield linguistics.</em> DeGruytor Mouton.</p>
-      <a class="pdf-button" href="/assets/publications/senko_voigt_2025_computational_gender_reference.pdf" target="_blank">PDF</a>
-    </div>
-  </li>
 
-  <li class="research-entry">
-    <div class="entry-wrapper">
-      <p><strong>Senko, M.</strong> (2022). <em>Transgressing the binary: Gendered language practices on Twitter</em>. (Master's thesis). Department of Linguistics, Northwestern University.</p>
-      <a class="pdf-button" href="/assets/publications/senko_thesis_final.pdf" target="_blank">PDF</a>
-    </div>
-  </li>
+{% include pub.html 
+   citation="<strong>Senko, M.</strong> & Voigt, R. (2025). Transgressing the binary: A computational approach to gendered reference. In S. Burnett & F. Vigo (Eds.), <em>Battlefield linguistics</em>. DeGruytor Mouton."
+   pdf="/assets/publications/senko_voigt_2025_computational_gender_reference.pdf"
+   doi="https://doi.org/10.1515/9783111351568-019"
+%}
+
 </ol>
 
 ---
