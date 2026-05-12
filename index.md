@@ -10,10 +10,10 @@ I'm Michael, a 1st year Linguistics PhD student at [Stanford](https://linguistic
 
 I'm interested in:
 
-- ㊓ Sociolinguistics (performance, variation, metalinguistic awareness)
-- 🧠 Cognition (control, attention, exemplar theory)
-- 🎙️ Phonetics (vowel quality, speech production, chain shifts)
-- 👾 Computational methods (NLP, LLMs, corpus analysis)
+- ㊓ Sociolinguistics (sound change, fieldwork, personae)
+- 🧠 Cognition (attention, information, exemplar theory)
+- 🎙️ Phonetics (speech production, cue weighting, control)
+- 👾 Computational methods (NLP, SpeechLMs, corpus analysis)
 
 You can contact me at **msenko** at **stanford** dot **edu**.
 
