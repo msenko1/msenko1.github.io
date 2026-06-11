@@ -8,6 +8,12 @@ title: Research
 <ol class="research-list" reversed>
 
 {% include pub.html 
+   citation="D'Onofrio, A & <strong>Senko, M.</strong> (2026). Demarcating place authenticity in the Chicago vowel. <em>Language in Society</em>, 1-28."
+   pdf="/assets/publications/donofrio_senko_2026_vowel_authenticity_chicago.pdf"
+   doi="https://doi.org/10.1017/S0047404526102371"
+%}
+
+{% include pub.html 
    citation="<strong>Senko, M.</strong> & Voigt, R. (2025). Transgressing the binary: A computational approach to gendered reference. In S. Burnett & F. Vigo (Eds.), <em>Battlefield Linguistics</em>. (pp. 401-426). De Gruyter Mouton."
    pdf="/assets/publications/senko_voigt_2025_computational_gender_reference.pdf"
    doi="https://doi.org/10.1515/9783111351568-019"
