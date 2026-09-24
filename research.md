@@ -26,6 +26,21 @@ title: Research
 ## Presentations
 
 <ol class="research-list" reversed>
+
+  <li class="research-entry">
+    <div class="entry-wrapper">
+      <p><strong>Senko, M.</strong> (2026). A panel analysis of Downeast English reveals disparate gender trajectories in apparent time. Paper presented at <em>American Dialect Society Research Incubator 1</em>. 19–20 September, remote.</p>
+      <a class="pdf-button" href="/assets/presentations/senko_2026_adsri.pdf" target="_blank">PDF</a>
+    </div>
+  </li>
+
+  <li class="research-entry">
+    <div class="entry-wrapper">
+      <p><strong>Senko, M.</strong>, Brown, G., de la Fuente, A., Ikedo, T., Martín Rodríguez, L., Tan, Y. L., WuWong, J., &amp; Podesva, R. J. (2026). Sexual identity, lexical association, and the ideological marking of place in San Francisco. Paper presented at <em>Lavender Languages and Linguistics 32</em>. 2–4 September, Edinburgh, United Kingdom.</p>
+      <a class="pdf-button" href="/assets/presentations/senko_etal_2026_lavlang.pdf" target="_blank">PDF</a>
+    </div>
+  </li>
+
   <li class="research-entry">
     <div class="entry-wrapper">
       <p>D'Onofrio, A. & <strong>Senko, M.</strong> (2022). “If you say /ʃəkɑɡoʊ/, get the fuck out of my face”: Variable discourses of localized authenticity in the Chicago vowel. Paper presented at <em>New Ways of Analyzing Variation 50</em>. 13–15 October, San Jose, CA.</p>
